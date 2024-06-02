@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookshelf Apps</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>BOOKSHELF APPS</h1>
+    <div class="bookshelf" id="quotes">
+        <h3>Hindari Generasi Minim Literasi</h3>
+        <ul id="katakata"></ul>
+    </div>
+    <div class="container">
+    <div class="bookshelf" id="unread-shelf">
+      <h2>Belum Selesai Dibaca</h2>
+      <ul id="unread-list"></ul>
+    </div>
+        </div>
+        <div class="container">
+    <div class="bookshelf" id="read-shelf">
+      <h2>Selesai Dibaca</h2>
+      <ul id="read-list"></ul>
+        </div>
+    </div>
+    <div class="add-book-form">
+      <input type="text" id="title" placeholder="Judul Buku">
+      <input type="text" id="author" placeholder="Penulis">
+      <input type="number" id="year" placeholder="Tahun Terbit">
+      <button onclick="addBook()">Tambah Buku</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2024 Andhika Raditya.</p>
+  </footer>
+  
+</body>
+</html>
